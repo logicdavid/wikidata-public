@@ -5,7 +5,7 @@ The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseI
 
 ### Installation
 
-You can install using the requirement file. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. Then you should be able to run the notebooks.
+You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. Then you should be able to run the notebooks.
 
 ### The notebooks
 
