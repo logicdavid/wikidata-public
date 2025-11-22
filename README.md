@@ -7,6 +7,13 @@ The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseI
 
 You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. Then you should be able to run the notebooks.
 
+
+### Obtaining a bot
+
+To run this code, it is likely that you will have to register a bot with your wikipedia/wikidata user. You can see here for instructions: [Register for bot use](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/)
+The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/README.md) also has some instructions regarding using a bot.
+
+
 ### The notebooks
 
 [Make_WikibaseItem_from_Metadata.ipynb](Make_WikibaseItem_from_Metadata.ipynb) demonstrates how to use wikibaseintegrator to create a python object representing a new wikidata item with metadata for a single book and how use the object to write to wikidata.
