@@ -11,6 +11,7 @@ You can install using the requirement file. We have been using python 3.12, but 
 ### Obtaining a bot
 
 To run this code, it is likely that you will have to register a bot with your wikipedia/wikidata user. You do this [here] (https://www.wikidata.org/wiki/Special:BotPasswords) and perhaps you can find some helpful instructions [here](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).
+You should also [request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) before you start editing (you can edit the test instance or in a sandbox before this request, but should not edit wikidata proper before making describing your project and requesting bot access at this link). 
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
