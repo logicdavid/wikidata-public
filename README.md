@@ -10,9 +10,9 @@ The bot logs in to wikidata by looking for credentials in a json file (see noteb
 
 ### Running these notebooks
 
-These notebooks contains the exact code we used to create wikidata items for a small subset of our corpus. As such, you will have to make adaptations before it makes sense to run it.
-For one thing, to edit you will have to be logged into you own account with the proper permissions, see next section.
-The code has been altered now so that attempts to run it will be directed at the wikidata test instance. But even to test it and make edits there
+These notebooks contain almost the exact code we used to create wikidata items for a small subset of our corpus. As such, you will have to make adaptations before it makes sense to run it.
+To edit you will have to be logged into you own account with the proper permissions, see next section.
+
 
 
 ### Obtaining a bot
