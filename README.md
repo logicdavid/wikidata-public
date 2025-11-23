@@ -17,7 +17,7 @@ To edit you will have to be logged into you own account with the proper permissi
 
 ### Obtaining a bot
 
-To run this with your own project data, it is likely that you will have to register a bot with your wikipedia/wikidata user. You can [obtain login credentials here](https://www.wikidata.org/wiki/Special:BotPasswords), after which you can test your bot on the test instance or in a sandbox; before making edits on wikidata proper, you should [describe your project and request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot). 
+To run this with your own project data, you will have to register a bot with your wikipedia/wikidata user. You can [obtain login credentials here](https://www.wikidata.org/wiki/Special:BotPasswords) following [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/) after which you can test your bot on the test instance or in a sandbox; before making edits on wikidata proper, you should [describe your project and request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot). 
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
