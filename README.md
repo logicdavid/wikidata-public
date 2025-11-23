@@ -1,11 +1,17 @@
 # Wikidata LitBot
 
-These notebooks aim to provide a simple workflow for storing and thereby sharing metadata about literary works using wikidata. We aim to upload metadata for a corpus of about 4000 fictional works from Projekt Gutenberg-DE and Project Gutenberg. Currently, this is still in a preliminary stage and we have uploaded around 200 works, all by authors who had not previously had any works associated with them on wikidata.
+These notebooks aim to showcase how wikidata might be used to share metadata about literary works. 
 The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/).
+Our project is still at an experimantal stage; we aim to eventually upload metadata for a corpus of about 4000 fictional works from Projekt Gutenberg-DE and Project Gutenberg. Currently we have uploaded only around 200 works.
+
 
 ### Installation
 
-You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. You can do this using
+We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. We provide a requirement file so you can install packages via
+```
+pip install -r requirements.txt
+'''
+As of this writing, you should install wikibaseintegrator directly from github to get the latest bug fixes. You can do this using
 ```
 pip install git+https://github.com/LeMyst/WikibaseIntegrator
 '''
