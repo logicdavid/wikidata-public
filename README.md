@@ -5,13 +5,19 @@ The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseI
 
 ### Installation
 
-You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. Then you should be able to run the notebooks.
+You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. 
+The bot logs in to wikidata by looking for credentials in a json file (see notebooks for details) which you will have to create.
+
+### Running these notebooks
+
+These notebooks contains the exact code we used to create wikidata items for a small subset of our corpus. As such, you will have to make adaptations before it makes sense to run it.
+For one thing, to edit you will have to be logged into you own account with the proper permissions, see next section.
+The code has been altered now so that attempts to run it will be directed at the wikidata test instance. But even to test it and make edits there
 
 
 ### Obtaining a bot
 
-To run this code, it is likely that you will have to register a bot with your wikipedia/wikidata user. You do this [here] (https://www.wikidata.org/wiki/Special:BotPasswords) and perhaps you can find some helpful instructions [here](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).
-You should also [request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) before you start editing (you can edit the test instance or in a sandbox before this request, but should not edit wikidata proper before making describing your project and requesting bot access at this link). 
+To run this with your own project data, it is likely that you will have to register a bot with your wikipedia/wikidata user. You can [obtain login credentials here](https://www.wikidata.org/wiki/Special:BotPasswords), after which you can test your bot on the test instance or in a sandbox; before making edits on wikidata proper, you should [describe your project and request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot). 
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
