@@ -32,12 +32,14 @@ The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator
 
 ### The notebooks
 
-[Make_WikibaseItem_from_Metadata.ipynb](Make_WikibaseItem_from_Metadata.ipynb) demonstrates how to use wikibaseintegrator to create a python object representing a new wikidata item with metadata for a single book and how use the object to write to wikidata.
+[wikidata-public/WikiBaseIntegrator.ipynb](WikiBaseIntegrator.ipynb) is the most minimal demonstration of how we use WikibaseIntegrator to make an edit.
+
+[Make_WikibaseItem_from_Metadata.ipynb](Make_WikibaseItem_from_Metadata.ipynb) demonstrates how to use wikibaseintegrator to obtain a python object representing a wikidata item and how write additional data for this item, taken from a CSV file, to wikidata.
 
 [Mass_Upload.ipynb](Mass_Upload.ipynb) contains a longer script which demonstrates writing several books from a csv file, and updating a dataframe with data reflecting the items created on wikidata.
 We create three entries for each book: One describing the work itself, one describing its first known edition, and one describing the edition in our corpus, the one hosted at the German or US Gutenberg site.
 
-[Auto_Matching.ipynb](Auto_Matching.ipynb) contains a short script with the goal of matching works in our corpus of authors who already have a wikidata item with the works that have wikidata entries. This is done using very simplicistic string matching against titles, labels, and descriptions. Despite the simplicity, we obtain results that are hard to produce with Openrefine.
+
 
 
 
