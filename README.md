@@ -5,8 +5,11 @@ The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseI
 
 ### Installation
 
-You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. 
-The bot logs in to wikidata by looking for credentials in a json file (see notebooks for details) which you will have to create.
+You can install using the requirement file. We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. Currently, we recommend installing wikibaseintegrator directly from github, a bug or two have only very recently been fixed. You can do this using
+```
+pip install git+https://github.com/LeMyst/WikibaseIntegrator
+'''
+The bot logs in to wikidata by taking credentials from a json file (see notebooks for details) which you have to create yourself.
 
 ### Running these notebooks
 
