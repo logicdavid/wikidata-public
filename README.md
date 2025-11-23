@@ -10,11 +10,11 @@ Our project is still at an experimantal stage; we aim to eventually upload metad
 We have been using python 3.12, but the code should run on any version on which wikibaseintegrator runs. We provide a requirement file so you can install packages via
 ```
 pip install -r requirements.txt
-'''
+```
 As of this writing, you should install wikibaseintegrator directly from github to get the latest bug fixes. You can do this using
 ```
 pip install git+https://github.com/LeMyst/WikibaseIntegrator
-'''
+```
 The bot logs in to wikidata by taking credentials from a json file (see notebooks for details) which you have to create yourself.
 
 ### Running these notebooks
