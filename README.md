@@ -1,4 +1,4 @@
-# Wikidata LitBot
+# LiteraryWorksMetaDataUploadBot
 
 These notebooks aim to showcase how wikidata might be used to share metadata about literary works. 
 The main tool we use is [WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/).
@@ -26,7 +26,7 @@ To edit you will have to be logged into you own account with the proper permissi
 
 ### Scripted access limitations
 
-Be aware that making edits on wikidata in high volume can get your script banned from the site. If you only want to make a small number of edits (perhaps in the hundreds?) this should not happen. 
+Be aware that making edits on wikidata in high volume can get your script banned from the site. If you only want to make a small number of edits this should not happen. 
 You can also always test your script on the test instance or in a sandbox. 
 Before making high volume edits on wikidata proper, it seems to us that you need to  obtain approval from wikidata via the so-called bot approval process.
 Find more information at [the wikipedia bots page](https://en.wikipedia.org/wiki/Wikipedia:Bots), and especially on the [help page](https://en.wikipedia.org/wiki/Help:Creating_a_bot), as well as in [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).  
@@ -35,7 +35,7 @@ The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator
 
 ### The notebooks
 
-[wikidata-public/WikiBaseIntegrator.ipynb](WikiBaseIntegrator.ipynb) is the most minimal demonstration of how we use WikibaseIntegrator to make an edit.
+[WikiBaseIntegrator.ipynb](WikiBaseIntegrator.ipynb) is the most minimal demonstration of how we use WikibaseIntegrator to make an edit.
 
 [Make_WikibaseItem_from_Metadata.ipynb](Make_WikibaseItem_from_Metadata.ipynb) demonstrates how to use wikibaseintegrator to obtain a python object representing a wikidata item and how write additional data for this item, taken from a CSV file, to wikidata.
 
