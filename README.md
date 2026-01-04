@@ -19,14 +19,17 @@ The bot logs in to wikidata by taking credentials from a json file (see notebook
 
 ### Running these notebooks
 
-These notebooks contain almost the exact code we used to create wikidata items for a small subset of our corpus. As such, you will have to make adaptations before it makes sense to run it.
+These notebooks showcases code we have used to create wikidata items for a small subset of our corpus. As such, you will have to make adaptations before it makes sense to run it.
 To edit you will have to be logged into you own account with the proper permissions, see next section.
 
 
 
-### Obtaining a bot
+### Scripted access limitations
 
-To run this with your own project data, you will have to register a bot with your wikipedia/wikidata user. You can [obtain login credentials here](https://www.wikidata.org/wiki/Special:BotPasswords) following [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/) after which you can test your bot on the test instance or in a sandbox; before making edits on wikidata proper, you should [describe your project and request bot access](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot). 
+Be aware that making edits on wikidata in high volume can get your script banned from the site. If you only want to make a small number of edits (perhaps in the hundreds?) this should not happen. 
+You can also always test your script on the test instance or in a sandbox. 
+Before making high volume edits on wikidata proper, it seems to us that you need to  obtain approval from wikidata via the so-called bot approval process.
+Find more information at [the wikipedia bots page](https://en.wikipedia.org/wiki/Wikipedia:Bots), and especially on the [help page](https://en.wikipedia.org/wiki/Help:Creating_a_bot), as well as in [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).  
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
