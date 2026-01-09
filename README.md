@@ -41,7 +41,7 @@ The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator
 
 [Make_WikibaseItem_from_Metadata.ipynb](Make_WikibaseItem_from_Metadata.ipynb) demonstrates how to use wikibaseintegrator to obtain a python object representing a wikidata item and how write additional data for this item, taken from a CSV file, to wikidata.
 
-[Mass_Upload.ipynb](Mass_Upload.ipynb) contains a longer script which demonstrates writing several books from a csv file, and updating a dataframe with data reflecting the items created on wikidata.
+[Mass_Upload.ipynb](Mass_Upload.ipynb) contains a longer script (the bot) which demonstrates writing several books from a csv file, and updating a dataframe with data reflecting the items created on wikidata.
 We create three entries for each book: One describing the work itself, one describing its first known edition, and one describing the edition in our corpus, the one hosted at the German or US Gutenberg site.
 
 [items_created_20250109.csv](items_created_20250109.csv) contains a list of files we have created until a certain date. Future creations are easy to monitor on the bots userpage.
