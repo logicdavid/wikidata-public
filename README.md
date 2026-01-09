@@ -42,7 +42,7 @@ The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator
 [Mass_Upload.ipynb](Mass_Upload.ipynb) contains a longer script which demonstrates writing several books from a csv file, and updating a dataframe with data reflecting the items created on wikidata.
 We create three entries for each book: One describing the work itself, one describing its first known edition, and one describing the edition in our corpus, the one hosted at the German or US Gutenberg site.
 
-Further information is also found on [the bots wikidata userpage](https://www.wikidata.org/wiki/User:LiteraryWorksMetaDataUploadBot).
+Further information is also found on [the bot's wikidata userpage](https://www.wikidata.org/wiki/User:LiteraryWorksMetaDataUploadBot).
 
 
 
