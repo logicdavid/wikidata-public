@@ -33,7 +33,9 @@ Find more information at [the wikipedia bots page](https://en.wikipedia.org/wiki
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
-### The notebooks
+### The files
+
+[Find_Author_Qid_using_PGDE_id.ipynb](Find_Author_Qid_using_PGDE_id.ipynb) shows how we used a wikidata identifier derived from the German Gutenberg site to obtain QIDs for our author records.
 
 [WikiBaseIntegrator.ipynb](WikiBaseIntegrator.ipynb) is the most minimal demonstration of how we use WikibaseIntegrator to make an edit.
 
@@ -41,6 +43,8 @@ The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator
 
 [Mass_Upload.ipynb](Mass_Upload.ipynb) contains a longer script which demonstrates writing several books from a csv file, and updating a dataframe with data reflecting the items created on wikidata.
 We create three entries for each book: One describing the work itself, one describing its first known edition, and one describing the edition in our corpus, the one hosted at the German or US Gutenberg site.
+
+[items_created_20250109.csv](items_created_20250109.csv) contains a list of files we have created until a certain date. Future creations are easy to monitor on the bots userpage.
 
 Further information is also found on [the bot's wikidata userpage](https://www.wikidata.org/wiki/User:LiteraryWorksMetaDataUploadBot).
 
