@@ -29,7 +29,7 @@ To edit you will have to be logged into you own account with the proper permissi
 Be aware that making edits on wikidata in high volume can get your script banned from the site. If you only want to make a small number of edits this should not happen. 
 You can also always test your script on the test instance or in a sandbox. 
 Before making high volume edits on wikidata proper, it seems to us that you need to  obtain approval from wikidata via the so-called bot approval process.
-Find more information at [the wikipedia bots page](https://en.wikipedia.org/wiki/Wikipedia:Bots), and especially on the [help page](https://en.wikipedia.org/wiki/Help:Creating_a_bot), as well as in [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).  
+Find more information especially at the [commons bots page](https://commons.wikimedia.org/wiki/Commons:Bots) as well as on [the wikipedia bots page](https://en.wikipedia.org/wiki/Wikipedia:Bots), [help page](https://en.wikipedia.org/wiki/Help:Creating_a_bot), [these instructions](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/).  
 The [README for WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator/) also has some instructions regarding using a bot.
 
 
