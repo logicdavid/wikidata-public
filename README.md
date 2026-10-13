@@ -19,6 +19,30 @@ These notebooks showcases code we have used to create wikidata items for a small
 To edit you will have to be logged into you own account with the proper permissions, see next section.
 
 
+### Branches and notebook outputs (for contributors)
+
+We develop on the `devel` branch and use `main` to showcase the notebooks with their outputs.
+A git filter ([tools/nbstrip_filter.py](tools/nbstrip_filter.py), in the spirit of [nbstripout](https://github.com/kynan/nbstripout)) takes care of the difference:
+
+- on `devel` (and any other branch), outputs and execution counts are stripped when you commit, so running a cell does not count as a change;
+- on `main`, outputs are kept;
+- on all branches, the kernel metadata (which differs from machine to machine) is stripped.
+
+The filter only needs `python3` (no packages). After cloning, register it once:
+```
+sh tools/setup-git.sh
+```
+
+Changes to the code go to `devel`. To bring them to `main`:
+```
+git switch main
+git merge --no-ff --no-commit devel
+git checkout devel -- '*.ipynb'     # take the notebooks from devel, discarding main's old outputs
+git commit
+```
+Then rerun the notebooks on `main` and commit the new outputs. Never merge `main` back into `devel`, as that would bring the outputs along.
+
+
 
 ### Scripted access limitations
 
