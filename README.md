@@ -42,6 +42,8 @@ git commit
 ```
 Then rerun the notebooks on `main` and commit the new outputs. Never merge `main` back into `devel`, as that would bring the outputs along.
 
+Note: after running a notebook on `devel`, `git status` may still list it as modified even though `git diff` shows nothing (a known limitation of git filters). Staging the file (`git add`) makes it disappear; nothing is actually committed.
+
 
 
 ### Scripted access limitations
